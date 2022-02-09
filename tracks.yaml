@@ -53,5 +53,4 @@ tracks:
     ros_distro: rolling
     vcs_type: git
     vcs_uri: https://github.com/neobotix/neo_simulation2.git
-    version: 1.0.0
-    version_saved: :{ask}
+    version: :{ask}
