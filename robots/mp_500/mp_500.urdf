@@ -14,8 +14,10 @@
 
 
       <plugin name='diff_drive' filename='libgazebo_ros_diff_drive.so'>
-        <ros>    <remapping>/tf:=tf</remapping>    </ros>
-
+        <ros>
+          <!-- Set namespace -->
+          <!-- <namespace></namespace> -->
+        </ros>
 
         <!-- Replace camelCase elements with camel_case ones -->
         <update_rate>100</update_rate>
