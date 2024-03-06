@@ -1,0 +1,12 @@
+Source: ros-rolling-neo-simulation2
+Section: misc
+Priority: optional
+Maintainer: Padmanabhan Pradheep <padmanabhan@neobotix.de>
+Build-Depends: debhelper (>= 9.0.0), ament-cmake, python3-ament-copyright <!nocheck>, python3-ament-flake8 <!nocheck>, python3-ament-pep257 <!nocheck>, python3-pytest <!nocheck>, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-neo-simulation2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-ros-workspace
+Description: ROS-2 Simulation packages for neobotix robots
