@@ -102,8 +102,7 @@ tracks:
     patches: null
     release_inc: '4'
     release_repo_url: null
-    release_tag: v1.0.0-1
-    release_tag_saved: :{ask}
+    release_tag: :{ask}
     ros_distro: rolling
     vcs_type: git
     vcs_uri: https://github.com/neobotix/neo_simulation2.git
